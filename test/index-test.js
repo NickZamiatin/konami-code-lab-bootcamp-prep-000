@@ -41,7 +41,7 @@ describe('index', () => {
         triggerKeyDown(i)
       }
 
-      expect(window.alert).toNotHaveBeenCalled()
+      expect(window.alert).toNotHaveBeenCalled(1)
     })
   })
 })
