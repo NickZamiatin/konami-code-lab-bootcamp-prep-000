@@ -1,19 +1,7 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 
-function init(which) {
-  const keyboardEvent = document.createEvent("KeyboardEvent")
+function init() {
+  // Write your JavaScript code inside the init() function
+  
 
-  keyboardEvent.initKeyboardEvent(
-    'keydown',
-    true,
-    true,
-    window,
-    which,
-    which,
-    0,
-    null,
-    null
-  )
-
-  document.body.dispatchEvent(keyboardEvent)
 }
